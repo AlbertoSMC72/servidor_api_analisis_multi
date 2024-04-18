@@ -8,7 +8,7 @@ indexRouter.get("/", (req: Request, res: Response) => {
   res.status(200).send("Hello World");
 });
 
-indexRouter.use(`${prefijo}/analisi`, analisisRouter);
+indexRouter.use(`${prefijo}/analisis`, analisisRouter);
 
 
 export default indexRouter;
